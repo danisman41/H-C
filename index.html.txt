@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>H&C Seyahat Vize ve Danýþmanlýk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>H&C Seyahat Vize ve Danýþmanlýk</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Hakkýmýzda</a></li>
+            <li><a href="#" role="button">Ýletiþim</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>H&C Seyahat Vize ve Danýþmanlýk</h2>
+                    <h3>Vizyonumuz ve Misyonumuz</h3>
+                </hgroup>
+                <p>
+                    H&C Seyahat Vize ve Danýþmanlýk olarak, misyonumuz müþterilerimize en iyi seyahat ve vize danýþmanlýk hizmetlerini sunmaktýr. 
+                    Vizyonumuz, yurt dýþý seyahatlerini herkes için kolay ve eriþilebilir hale getirmektir.
+                </p>
+                <figure>
+                    <img src="URL_1" alt="Danýþmanlýk Ofisi">
+                    <figcaption><a href="#" target="_blank">Danýþmanlýk Ofisi</a></figcaption>
+                </figure>
+                <h3>Avrupa Turlarýmýz</h3>
+                <p>
+                    Avrupa turlarýmýz, zengin kültürel mirasý keþfetmenize olanak tanýr. Profesyonel rehberlerimiz ve eksiksiz tur programlarýmýzla unutulmaz bir seyahat deneyimi yaþayýn.
+                </p>
+                <h3>Þirketimizin Köklü Yapýsý</h3>
+                <p>
+                    H&C Seyahat, yýllarýn verdiði deneyim ve profesyonellik ile müþterilerine hizmet vermektedir. Güvenilir ve kaliteli hizmet anlayýþýmýz ile sektörde öncü bir konumdayýz.
+                </p>
+                <figure>
+                    <img src="URL_2" alt="Þirketin Köklü Yapýsý">
+                    <figcaption><a href="#" target="_blank">Þirketin Köklü Yapýsý</a></figcaption>
+                </figure>
+                <h3>Yurt Dýþýna Çýkmak Ýçin Bilgiler</h3>
+                <p>
+                    Yurt dýþýna çýkmak için gerekli olan vize, pasaport ve diðer iþlemler hakkýnda detaylý bilgiye sitemizden ulaþabilirsiniz. Uzman danýþmanlarýmýz her adýmda yanýnýzda.
+                </p>
+                <figure>
+                    <img src="URL_3" alt="Yurt Dýþýna Çýkmak Ýçin Bilgiler">
+                    <figcaption><a href="#" target="_blank">Yurt Dýþýna Çýkmak Ýçin Bilgiler</a></figcaption>
+                </figure>
+                <h3>Müþteri Memnuniyeti</h3>
+                <p>
+                    Müþterilerimizin memnuniyeti bizim için her þeyden önemlidir. Referanslarýmýz ve müþteri yorumlarýmýz, hizmet kalitemizin en büyük göstergesidir.
+                </p>
+                <figure>
+                    <img src="URL_4" alt="Müþteri Memnuniyeti">
+                    <figcaption><a href="#" target="_blank">Müþteri Memnuniyeti</a></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Haber Bültenimize Abone Olun</h2>
+                    <h3>En güncel haberleri ve fýrsatlarý kaçýrmayýn!</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Adýnýz" aria-label="Adýnýz" required />
+                    <input type="email" id="email" name="email" placeholder="E-posta Adresiniz" aria-label="E-posta Adresiniz" required />
+                    <button type="submit" onclick="event.preventDefault()">Abone Ol</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Gizlilik Politikasý</a> • <a href="#">Þartlar ve Koþullar</a></small>
+    </footer>
+</body>
+</html>
